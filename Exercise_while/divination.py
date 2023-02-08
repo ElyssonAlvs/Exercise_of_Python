@@ -1,6 +1,6 @@
 # Faça um jogo de adivinhação / Make to a guessing game;
 from random import randint
-print('The machine will choose a number between 0 and 100, try to get it right!You have 5 attempts')
+print('The machine will choose a number between 0 and 100, try to get it right!')
 user_number = int(input('Choice a number : '))
 secret_number = randint(0, 100)
 counter = 0
